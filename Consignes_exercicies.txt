@@ -1,0 +1,165 @@
+# Bases
+
+## Variables et scopes
+
+### Addition
+* Instancier 2 entiers a et b des valeurs de votre choix
+* Additionner les deux variables
+* Afficher le résultat
+* Modifier le programme pour que a et b soient rentrés par l’utilisateur
+
+### Restes
+* Instancier 2 entiers a et b qui valent respectivement 7 et 2.
+* Diviser a par b.
+* Avant d'executer: Quel sera le resultat ? 
+* Quel serait le résultat si a et b étaient un nombre à virgule ? (cela ne compilera
+* Caulculer le modulo (%) de a et b.
+* Avant d'executer: Quel sera le résultat ? 
+* Que peut-on déduire sur A du résultat de cette seconde opération ? 
+
+### Single maj
+* Instancier une variable de type charactère dont la valeur est 'a'.
+* transformer cette variable en un 'A' sans utiliser de librairie à part `stdio.h`.
+
+## Boucles et Conditions
+
+### Compteur
+* Faites une boucle qui fait 100 tours
+* Affichez dans la console le compteur à chaque tour
+* Faites en sorte d’afficher uniquement les valeurs paires
+* N’affichez qu’une valeur paire sur deux
+
+### Cumul
+Faites un programme qui: 
+* Demande à l'utilisateur un nombre
+* Lui affiche dans la console le résultat de l'addition de tous les nombres entre 1 et celui de l'utilisateur.
+
+### Compteur input
+* Faites un scanf pour recevoir un nombre entier de la part de l’utilisateur
+* Faites en sorte que lorsque l’utilisateur entre une valeur, une nouvelle valeur lui est demandé
+* Si l’utilisateur entre ‘0’, alors le programme s’arrête.
+* Avant que le programme ne se ferme comptez le nombre de fois où l’utilisateur a entré 1, 2, et 3 et affichez les
+
+### Fibonacci
+* Faites un programme qui imprime la suite de fibonacci.
+Le nombre d’itérations sera demandé à l'utilisateur dans la console.
+![image](https://user-images.githubusercontent.com/56230065/268536337-4e83d9eb-f53d-4be6-b1af-1b337360f2fc.png)
+
+### Maj
+Créez un programme qui:
+* Demande à l'utilisateur un caractère
+* Passe ce caractère en majuscule s'il est en minuscule ou en minuscule s'il est en majuscule
+* Imprime le résultat
+* Demande un nouveau caractère
+
+attention : si le caractère n'est pas une lettre il doit être laissé tel quel
+
+tips : utilisez la table ascii
+
+### Digits
+Créer un programme qui :
+* Demande à l'utilisateur un grand nombre
+* Isole le premier et le dernier chiffre
+* Imprime ces chiffres
+
+### Palindrome
+Créer un programme qui :
+* Demande un nombre à un utilisateur
+* Indique si celui-ci est un palindrome
+
+Un nombre palindrome est un nombre qui est le même si on le retourne.
+
+### Multiplications
+Créer un programme qui demande deux nombres.
+Il montrera tous les multiples du premier nombre, de 0 jusqu'au second nombre.
+
+### Demi-pyramide
+Créer un programme qui demande un nombre et imprime une demi-pyramide avec le nombre donné en hauteur
+
+Exemple: 
+```
+Pls enter number:
+5
+
+*
+**
+***
+****
+*****
+
+```
+
+### Pyramide
+Créer un programme qui demande un nombre et imprime une pyramide avec le nombre donné en base
+Exemple:
+```
+Please enter number:
+5
+
+
+  *
+ ***
+*****
+```
+
+### Spi-râle
+Créer un programme qui demande une taille et imprime une spirale de cette taille.
+
+Exemple:
+```
+Please enter number:
+3
+
+>>v
+^>v
+^<<
+
+Please enter number:
+4
+
+>>>v
+>>vv
+^^<v
+^<<<
+
+Please enter number:
+5
+
+>>>>v
+>>>vv
+^>vvv
+^^<<v
+^<<<<
+
+```
+
+## Fonctions
+
+### Sum function
+Créer une fonction qui permet d’ajouter deux nombres a et b et retourne le résultat.
+
+### Sum multiplication function
+Créer une fonction qui prend deux nombres et renvoie true(1) si le premier est un multiple du second, et false(0) sinon.
+
+### Cumul récursif
+Utiliser une fonction **récursive** pour faire le programme suivant : 
+* L'utilisateur entre un nombre
+* Le programme lui affiche le résultat de l'addition de tous les nombres de 1 à celui donné.
+
+### Fibonacci 2
+Réaliser à nouveau l’exercice de la suite de fibonacci mais cette fois :
+* On demande à l’utilisateur de donner un nombre n
+* On renvoie la valeur de la suite de fibonacci au nombre n.
+
+### Bibine
+Écrire une fonction qui prend en paramètre un nombre et renvoie sa valeur en binaire stockée dans un int.
+
+Exemple:
+```
+Entrée: 10
+Sortie: 1010
+
+Entrée: 423
+Sortie: 110100111
+
+```
